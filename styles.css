@@ -1,0 +1,41 @@
+
+body{
+    background: beige;
+    margin: 0px;
+    font-size: medium;
+    font-family:system-ui;
+}
+header{
+    text-align: center;
+    padding: 10px;
+}
+.encabezado{
+    padding: 10px;
+}
+main{
+    margin: auto;
+    padding-left:25% ;
+    padding-right: 25%;
+}
+.post{
+    background: white;
+    margin-bottom: 30px;
+    border: 1px solid black;
+}
+
+div.post .encabezado div:first-child{
+    display: inline-block;
+    width: 80%;
+}
+div.post .encabezado div:last-child{
+    display: inline-block;
+    width: 18%;
+    text-align: right;
+    color: gray;
+}
+div.post img{
+    width: 100%;
+}
+div.post .desc{
+    padding: 10px;
+}
